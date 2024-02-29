@@ -1,0 +1,63 @@
+Node.js + express.js
+
+* All the actions down will be protected with security middlewaires
+
+A - SuperAdmin :
+
+1 - Admin login : Done
+	* ID + Password ( JWT ) 
+
+2 - Admin Can Create SubAdmins : Done
+	* ID + Password
+
+3 - Admin Can RUD SubAdmins : Done
+
+4 - Admin Can Create Op : Done
+	* ID + Password
+
+5 - Admin Can RUD Op : Done
+
+6 - Admin can Create an TMK : Done
+	*  = TMK
+
+7 - Admin Can See History : Done
+	* all actions on the DB will be saved in a actionsHistoryArray (with role admin-subadmin-op)
+
+8 - Admin Can Download Sensitive Data : Done
+	* file from backend
+
+
+
+
+
+
+
+B - SubAdmin :
+
+1 - SubAdmin login : Done
+	* ID + Password ( JWT )
+
+4 - SubAdmin Can Create Op : Done 
+	* ID + Password
+
+5 - SubAdmin Can RUD Op : Done
+
+6 - SubAdmin can Create an Comp : Done
+	* 1 Comp and if hat comp is the last one then create zmk = 3comp + algorithme
+
+7 - SubAdmin Can See History : Done
+	* will see only the op actions from the actionsHistoryArray In The DB
+
+
+
+
+
+
+
+C - Op :
+
+1 - Op Can Login : Done 
+	* ID + Password
+
+2 - Teleparametrage Form Create : Done
+	* SRV + TID + MID + ADRESSE + N.MARCHANT + TMK = file
