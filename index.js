@@ -18,7 +18,7 @@ app.use('/op', opRoutes);
 // Start the server
 app.listen(3000, () => {
     // Connect to MongoDB 
-    mongoose.connect('mongodb+srv://koussaybnit:Ie8O4PkttlPYAEgM@rtk.ttfncyw.mongodb.net/?retryWrites=true&w=majority', {
+    mongoose.connect('', {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         dbName : "RTK"
